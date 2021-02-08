@@ -10,6 +10,7 @@ class App extends React.Component {
   
   state = {
     character: this.getQuote, 
+    
   }
   
   getQuote(){
@@ -24,7 +25,7 @@ class App extends React.Component {
   
   render(){
     this.getQuote = this.getQuote.bind(this);
-    console.log(this.state.character)
+    
   return (
     <div className="App">
       

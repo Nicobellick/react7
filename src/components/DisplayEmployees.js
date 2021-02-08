@@ -5,7 +5,7 @@ function DisplayEmployee({ guy }) {
     <div className="DisplayEmployee">
       <p>{guy.character}</p>
       <h2>{guy.quote}</h2>
-      <img src={guy.image}></img>
+      <img src={guy.image} alt={guy.character}></img>
       
     </div>
   );
